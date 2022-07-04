@@ -1,5 +1,6 @@
 <template>
   <section id="about">
+    <Tag text="Welcome" />
     <div class="text">
       <h4>La libertad de crear la Página Web que quieras</h4>
     </div>
@@ -47,4 +48,5 @@ p {
 }
 </style>
 
-<script setup lang="ts"></script>
+<script setup lang="ts">
+import Tag from './Tag.vue';</script>

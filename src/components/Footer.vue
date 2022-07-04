@@ -1,5 +1,6 @@
 <template>
     <footer id="footer">
+        <Tag text="Good Bye" />
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo">
@@ -122,5 +123,6 @@
 
 <script setup lang="ts">
 import Copyright from './Copyright.vue';
+import Tag from './Tag.vue';
 
 </script>

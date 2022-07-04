@@ -1,6 +1,6 @@
 <template>
   <section>
-  <Navbar />
+  <Navbav />
     <div class="overlay"></div>
     <div class="text">
       <h2>Webs, Apps y Diseños Deluxe</h2>
@@ -77,6 +77,6 @@ p {
 }
 </style>
 <script setup lang="ts">
-import Navbar from './Navbar.vue';
+import Navbav from './navbav/index.vue';
 
 </script>

@@ -1,12 +1,22 @@
 <template>
   
+      <div class="logo_container">
       <a href="/" rel="noopener">WBW</a>
+
+      </div>
             
 </template>
 <style scoped>
-      a{
+
+
+      .logo_container {
         width: 200px;
-        color: white;
-        margin: auto 0;
+        /* height: 100%; */
+        background: transparent;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        /* background: #000; */
       }
+      
 </style>

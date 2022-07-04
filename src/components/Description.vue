@@ -1,5 +1,6 @@
 <template>
     <section id="projects">
+        <Tag text="Features" />
         <div class="card" v-for="({title, desc}, index) in features">
             <div class="top">{{ title }}</div>
             <br />
@@ -9,21 +10,20 @@
 </template>
 
 <style scoped>
+
 section {
     width: 100vw;
-    min-height: 50vh;
-    background: silver;
+    min-height: 100vh;
+    background: #1c1c1c;
     color: #1c1c1c;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-wrap: wrap;
-    padding: 2em 0;
 }
 
 .card {
-    width: 270px;
-    min-height: 270px;
+    width: 300px;
+    height: 200px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +46,7 @@ section {
 </style>
 
 <script  setup lang="ts">
+import Tag from './Tag.vue';
 const features = [
     {
         title: "WEB OPTIMIZATION",

@@ -12,11 +12,8 @@ import Footer from "./components/Footer.vue";
   <Banner />
   <Marquee />
   <Slider />
-  <Tag text="Welcome" />
   <About />
-  <Tag text="Features" />
   <Description />
-  <Tag text="Good Bye" />
   <Footer />
 </template>
 

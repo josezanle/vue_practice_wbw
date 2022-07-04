@@ -7,6 +7,9 @@
 <style scoped>
 .row {
     padding: 1em 0 0 1em;
+    width: 100vw;
+    display: flex;
+    align-items: center;
 }
 
 button {
