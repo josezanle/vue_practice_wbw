@@ -1,6 +1,6 @@
 <template>
   <section>
-  <Navbav />
+    <Navbav />
     <div class="overlay"></div>
     <div class="text">
       <h2>Webs, Apps y Diseños Deluxe</h2>

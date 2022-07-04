@@ -8,6 +8,7 @@
 </template>
 
 <style scoped>
+
 .navbar {
     width: 100vw;
     height: 80px;
@@ -20,12 +21,18 @@
     display: flex;
     align-items: center;
 }
+
+@media(max-width: 620px){
+    .navbar{
+        justify-content: space-between;
+    }
+}
 </style>
 
 <script setup lang="ts">
-import Logo from '../Logo.vue';
 import MidNavigation from './MidNavigation.vue';
 import LoginSection from './LoginSection.vue';
+import Logo from './Logo.vue';
 
 
 

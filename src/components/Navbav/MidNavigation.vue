@@ -1,14 +1,20 @@
 <template>
-    <div class="mid_navigation">
+    <nav class="mid_navigation">
         <a href="#about">About</a>
         <a href="#projects">Features</a>
         <a href="#">Text3</a>
         <a href="#">Text4</a>
         <a href="#footer">Contact</a>
-    </div>
+
+        <!-- <RouterLink to="/login">Login</RouterLink>
+        <RouterLink to="/register">Register</RouterLink>
+        <RouterLink to="/dashboard">Dashboard</RouterLink> -->
+    </nav>
+    <!-- <RouterView /> -->
 </template>
 
 <style scoped>
+
 
 .mid_navigation {
     width: 100%;
@@ -26,5 +32,10 @@
 
 .mid_navigation a:hover {
     color: white;
+}
+@media(max-width: 620px){
+    .mid_navigation{
+        display: none;
+    }
 }
 </style>
