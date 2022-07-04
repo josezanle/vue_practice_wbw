@@ -77,6 +77,6 @@ p {
 }
 </style>
 <script setup lang="ts">
-import Navbav from './navbav/index.vue';
+import Navbav from "./Navbav/index.vue";
 
 </script>
