@@ -2,7 +2,6 @@
 import Banner from "./components/Banner.vue";
 import Marquee from "./components/Marquee.vue";
 import Slider from "./components/Slider.vue";
-import Tag from "./components/Tag.vue";
 import About from "./components/About.vue";
 import Description from "./components/Description.vue";
 import Footer from "./components/Footer.vue";

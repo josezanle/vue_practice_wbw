@@ -4,7 +4,7 @@
         <div class="container__footer">
             <div class="box__footer">
                 <div class="logo">
-                    <h2>WeBuildWebz</h2>
+                    <h2>Logo</h2>
                 </div>
                 <div class="terms">
                     <p>
